@@ -1,0 +1,45 @@
+PERSONAS = {
+    "20s - 30s (Wealth Accumulators)": [
+        "1. Tech Startup Founder (Post-Seed Round, high risk tolerance, illiquid wealth)",
+        "2. DINK Couple (Aggressive savers, ESG focused)",
+        "3. Medical Resident (High future earning potential, currently high debt)",
+        "4. Freelance Consultant (Irregular cash flow, needs liquidity)",
+        "5. Inheritance Recipient (Overwhelmed, low financial literacy)",
+        "6. Crypto Millionaire (Wants to diversify into traditional assets)",
+        "7. Expat Professional (Complex tax considerations, cross-border goals)",
+        "8. Influencer / Content Creator (High current income, short career-span anxiety)",
+        "9. First-generation Wealth Builder (Risk-averse, family support obligations)",
+        "10. Private Equity Associate (Sophisticated, wants alternative investments)",
+    ],
+    "40s - 50s (Consolidators & Peak Earners)": [
+        "11. C-Suite Executive (High concentration of company stock, time-poor)",
+        "12. Business Owner (Preparing for exit / sale in 5 years)",
+        "13. Sandwich Generation Parent (Funding college and elder care)",
+        "14. Divorced Professional (Rebuilding solo wealth, cashflow constraints)",
+        "15. Partner at Law Firm (High cash flow, seeking tax efficiency)",
+        "16. Real Estate Investor (Asset rich, cash poor, needs diversification)",
+        "17. Late Starter to Savings (Retirement anxiety, wants aggressive growth)",
+        "18. Widowed Professional (Transitioning to solo decision-making)",
+        "19. Tech VP with RSU Windfall (Needs diversification strategy)",
+        "20. Philanthropist (Impact investing and legacy planning)",
+    ],
+    "60+ (Retirement & Legacy Planning)": [
+        "21. Fresh Retiree (Transitioning from accumulation to drawdown)",
+        "22. High-Net-Worth Widow (Delegator, relies on RM confidence)",
+        "23. Business Seller (Large cash pile, inflation anxiety)",
+        "24. Extreme Risk-Averse Pensioner (Terrified of capital loss, income focused)",
+        "25. Grandparent Funder (Education and gifting goals)",
+        "26. Downsizing Couple (Liquidity event from residence sale)",
+        "27. Yield-Seeking Investor (Pushing for risky credit exposure)",
+        "28. Philanthropic Trust Founder (Foundation payout discipline)",
+        "29. Retired Athlete (Needs strict budgeting and capital preservation)",
+        "30. Legacy Planner (Estate efficiency and gifting strategy)",
+    ],
+}
+
+ENGAGEMENT_TYPES = [
+    "Deploying Fresh Money",
+    "Portfolio Review",
+    "Client Query / Panic",
+    "Complete Fresh Allocation",
+]
