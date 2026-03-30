@@ -32,7 +32,7 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
 
 DEFAULT_PROVIDER = os.getenv("DEFAULT_PROVIDER", "Demo")
-APP_NAME = os.getenv("APP_TITLE", "Alpha Lens")
+APP_NAME = os.getenv("APP_TITLE", "RM Case Study")
 APP_SUBTITLE = "RM Capability Engine"
 
 st.set_page_config(
@@ -949,7 +949,7 @@ def calculate_xp(score: int, originality_score: int, alignment: str) -> int:
 def render_sidebar() -> str:
     with st.sidebar:
         st.markdown("<div class='brand-title'>scripbox</div>", unsafe_allow_html=True)
-        st.markdown("<div class='brand-subtitle'>Alpha Lens · RM Capability Engine</div>", unsafe_allow_html=True)
+        st.markdown("<div class='brand-subtitle'>RM Case Study · RM Capability Engine</div>", unsafe_allow_html=True)
         st.markdown("---")
 
         options = ["Demo", "OpenAI", "Gemini"]
